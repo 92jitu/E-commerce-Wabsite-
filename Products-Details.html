@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Css style link -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!--Font Awesome  -->
+    <script src="https://kit.fontawesome.com/3de561d931.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>All Products - Redstore</title>
+</head>
+
+<body>
+
+    <!-- start Navbar -->
+    <!-- <div class="header"> -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./RedStore_Img/images/logo.png" class="w-50" alt="">
+                    <!-- <h2>logo</h2> -->
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                    <img src="./RedStore_Img/images/cart.png" width="30px" height="30px" alt="">
+                    <img src="./RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
+                </nav>
+            </div>
+        </div>
+    <!-- </div> -->
+    <!-- End Navbar -->
+<!-- -----------------------singal Product detail -->
+   <div class="container single-product mt-4">
+       <div class="row">
+           <div class="col-lg-6 p-2"><img src="/RedStore_Img/images/gallery-1.jpg" width="100%" alt=""></div>
+           <div class="col-lg-6 p-2 px-4 d-flex justify-content-between flex-column ">
+               <p>Home /T shirt</p>
+               <h1 class="fs-1 fw-bold">Red Printed T-Shirt</h1>
+               <h4 class="text-secondary fw-bold">$50.0</h4>
+               <select name="" id="" class="p-2 my-3">
+                   <option value="">Select Size</option>
+                   <option value="">XXL</option>
+                   <option value="">XL</option>
+                   <option value="">Medium</option>
+                   <option value="">Large</option>
+               </select>
+               <input class="w-25 px-2 fs-4" type="Number" name="" value="1">
+               <button class="btn btn-danger my-2">Add To Cart</button>
+               <h3 class="mt-3 fs-3 fw-bold">Product Details <i class="fa fa-indent ms-2" style="color: #ff523b; "></i></h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, soluta ut modi quod consequatur iste explicabo facilis repellat, ipsam voluptate maiores quisquam fugit nostrum voluptas placeat earum? Labore, corrupti consequuntur.</p>
+           </div>
+       </div>
+   </div>
+
+    <!-- Featured Products -->
+        <div class="container">
+            <div class="row-2">
+                <h2>All Products</h2>
+                <select class="w-25 px-2">
+                    <option>Default Shorting</option>
+                    <option>Short by price</option>
+                    <option>Short by Popularty</option>
+                    <option>Short by rating</option>
+                    <option>Short by sale</option>
+                </select>
+            </div>
+        </div>
+
+    <div class="container categorys">
+        <div class="row">
+            <div class="col-lg-3 p-2 mb-3">
+                <img src="./RedStore_Img/images/product-1.jpg" width="100%" alt="">
+                <h5 class="pt-1">Red Printed T-shirts</h5>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-lg-3 p-2 mb-3">
+                <img src="./RedStore_Img/images/product-2.jpg" width="100%" alt="">
+                <h5 class="pt-1">Red Printed T-shirts</h5>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-lg-3 p-2 mb-3">
+                <img src="./RedStore_Img/images/product-3.jpg" width="100%" alt="">
+                <h5 class="pt-1">Red Printed T-shirts</h5>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-lg-3 p-2 mb-3">
+                <img src="./RedStore_Img/images/product-4.jpg" width="100%" alt="">
+                <h5 class="pt-1">Red Printed T-shirts</h5>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!--End Featured Products -->
+
+    
+
+
+
+    
+    <!-- Footer -->
+    <div class="container-fluid footer bg-dark">
+
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-2">
+                        <h5 class="text-light">Manu</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Categorie</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Products</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 offset-1">
+                        <form class="text-light">
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of whats new and exciting from us.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between py-2 border-top">
+                    <p class="text-light">© 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-secondary" href="#"><i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3"><a class="link-secondary" href="#"><i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3"><a class="link-secondary" href="#"><i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!--End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    -->
+    <!-- -------js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems = style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "220px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
