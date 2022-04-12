@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 a{
     text-decoration: none;
@@ -10,6 +11,7 @@ a{
 body
 {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .navbar{
@@ -32,11 +34,19 @@ margin-right: 20px;
 
 nav ul li a{
 text-decoration: none;
-color: #555;
+color: rgb(166, 162, 162);
+
+}
+nav ul li a:hover{
+    color: rgb(255, 247, 247);
+    font-style:bold;
+
+   font-size: 19px;
 }
 
+
 .header p{
-    color: #555;
+    color: rgb(166, 162, 162);
 }
 
 .header .container{
@@ -47,70 +57,31 @@ color: #555;
 }
 
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(rgb(6, 6, 6),#020202);
+    height: 600px;
+    overflow: hidden;
+
 }
-
-.menu-icon{
-    width: 28px;
-    margin-left: 20px;
-    display: none;
-}
-
-/* ------Media Query for menu----------- */
-
-@media only screen and (max-width:1000px){
-    nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-        /* border: solid red; */
-    }
-    nav ul li{
-    display: block;
-    margin-right: 50px;
-    margin-top:10px ;
-    margin-bottom: 10px;
-    }
-    nav ul li a{
-        color: white;
-    }
-    .menu-icon{
-        display: inline-block;
-        cursor: pointer;
-    }
-}
-
-/* ------Media Query for less 600 ----------- */
-@media only screen and (max-width:700px){
-    .row{
-        text-align: center;
-    }
-}
-
-
-
-
-
-
-/* ----------------All Products-------------------- */
-.row-2{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px auto 50px;
-}
-select{
-    border: 1px solid #ff523b;
+.crausel
+{
+    position: relative;
     
 }
 
-select:focus{
-outline: none;
+.bgimg
+{
+    width: 700px;
+    height: 500px;
+position: absolute;
+top: 0;
+right: 0;
+margin-top: -65px; 
+margin-right:-100px ;
+ 
+
 }
 
+<<<<<<< HEAD
 .page-btn{
     margin: 0 auto 80px;
 }
@@ -225,6 +196,8 @@ form input{
 
 
 
+=======
+>>>>>>> 828b78f9baa1fc0f0419636d031631d490329bfe
 
 
 /* Categorys */
@@ -272,20 +245,26 @@ transition: transform 0.6s;
 
 /* offers */
 .offer{
-    background: radial-gradient(#fff,#ff523b);
+    
+    background:rgb(0, 0, 0);
     /* padding: 20px 0; */
 }
 
+
+
+
 .offer-img{
-    width: 70%;
+    /* position: absolute; */
+    width:500px;
     padding-left: 150px;
+   
 }
 /* offers */
 
 /* testimonial */
 .testimonial{
 padding-top: 100px; 
-margin: 20px;  
+margin: 20px 200px;  
 }
 
 .testimonial .col-lg-4 .card{
